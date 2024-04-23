@@ -19,8 +19,8 @@ const Navbar = () => {
           <p className="px-4">Kerja Kami</p>
           <p className="px-4">Komunitas</p>
           <p className="px-4">Berita dan Cerita</p>
-          <Link to="/Login"><Button borderButton="2px solid #CFBD28" backgroundColorButton="transparent" name="Daftar" /></Link>
-          <Link to="/Register"><Button borderButton="2px solid #D9CA53" backgroundColorButton="#D9CA53" name="Masuk" /></Link>
+          <Link to="/Register"><Button borderButton="2px solid #CFBD28" backgroundColorButton="transparent" name="Daftar" /></Link>
+          <Link to="/Login"><Button borderButton="2px solid #D9CA53" backgroundColorButton="#D9CA53" name="Masuk" /></Link>
         </div>
       </div>
     </>

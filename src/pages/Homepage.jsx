@@ -4,6 +4,7 @@ import Focus from "../layout/Focus";
 import Footer from "../layout/Footer";
 import Header from "../layout/Header";
 import Partners from "../layout/Partner";
+import Communitas from "../layout/Communitas";
 
 
 const Homepage = () => {
@@ -16,6 +17,7 @@ const Homepage = () => {
             <About/>
             <Focus/>
             <Event/>
+            <Communitas/>
             <Footer/>
         </div>
         </>
