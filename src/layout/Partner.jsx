@@ -11,7 +11,7 @@ const Partners = () => {
     return (
       <>
       <div class="bg-white" >
-      <div class="font-bold text-center font-bold pt-16 " style={{fontSize: "30px", color:"#D9CA53"}}>
+      <div class="font-bold text-center font-bold pt-16 " style={{fontSize: "30px", color:"#D9CA53"}} >
          <p>Partner Kami</p>
         </div>
         <div class="flex flex-row justify-center pb-16">

@@ -13,8 +13,8 @@ const About = () => {
           />
           </div>
         </div>
-        <div class="w-7/12 font-bold text-left font-bold mr-48" >
-         <p style={{fontSize:"20px"}}><span style={{color:"#D9CA53"}}>TBN Indonesia</span> adalah sebuah organisasi nirlaba yang didirikan pada tahun 2022 dengan tujuan untuk mendorong kewirausahaan sosial di Indonesia. Organisasi ini dibentuk oleh sekelompok pengusaha dan pemimpin perusahaan yang ingin menggunakan keahlian dan sumber daya mereka untuk membantu mengatasi masalah sosial dan ekonomi di Indonesia.</p>
+        <div class="w-7/12 font-bold text-left font-normal mr-48" >
+         <p class="text-gray-400" style={{fontSize:"20px"}}><span style={{color:"#D9CA53"}} class="font-bold">TBN Indonesia</span> adalah sebuah organisasi nirlaba yang didirikan pada tahun 2022 dengan tujuan untuk mendorong kewirausahaan sosial di Indonesia. Organisasi ini dibentuk oleh sekelompok pengusaha dan pemimpin perusahaan yang ingin menggunakan keahlian dan sumber daya mereka untuk membantu mengatasi masalah sosial dan ekonomi di Indonesia.</p>
         </div>
       </div>
       </>

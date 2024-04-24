@@ -1,6 +1,7 @@
 import Datepicker from "react-tailwindcss-datepicker";
 import LogoTBN from "../Images/LogoTBNpng.png";
 import React, { useState } from "react";
+import { Link } from "react-router-dom";
 
 const Register = () => {
     const [value, setValue] = useState({
@@ -67,7 +68,7 @@ const Register = () => {
                         <label for="remember" class="ms-2 text-sm font-medium text-gray-900 dark:text-gray-300">Remember me</label>
                     </div>
                     <div class="flex justify-center">
-                    <button type="submit" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Submit</button>
+                    <Link to="/"><button type="submit" class="text-white bg-blue-700 hover:bg-blue-800 focus:ring-4 focus:outline-none focus:ring-blue-300 font-medium rounded-lg text-sm w-full sm:w-auto px-5 py-2.5 text-center dark:bg-blue-600 dark:hover:bg-blue-700 dark:focus:ring-blue-800">Register</button></Link>
                     </div>
 
                 </form>
